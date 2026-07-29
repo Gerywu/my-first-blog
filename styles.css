@@ -24,7 +24,7 @@ body {
         radial-gradient(circle at top left, rgba(196, 107, 49, 0.2), transparent 32%),
         radial-gradient(circle at right 20%, rgba(143, 63, 21, 0.12), transparent 24%),
         linear-gradient(180deg, #f8f1e8 0%, #f4efe7 100%);
-    font-family: "Manrope", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
     line-height: 1.7;
 }
 
@@ -140,7 +140,7 @@ a {
 .hero-card h2,
 .info-card h2 {
     margin: 0;
-    font-family: "Newsreader", serif;
+    font-family: Georgia, "Times New Roman", "Songti SC", serif;
     line-height: 1.05;
 }
 
@@ -149,7 +149,7 @@ a {
 }
 
 .hero-tagline {
-    max-width: 16ch;
+    max-width: 24ch;
     margin: 14px 0;
     font-size: clamp(1.45rem, 2vw, 2rem);
     line-height: 1.2;
@@ -228,7 +228,7 @@ a {
 
 .post-card h3 {
     margin: 0 0 12px;
-    font-family: "Newsreader", serif;
+    font-family: Georgia, "Times New Roman", "Songti SC", serif;
     font-size: 2rem;
 }
 
